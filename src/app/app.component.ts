@@ -8,7 +8,7 @@ import { projectNewData } from '../data';
 export class AppComponent {
   title = 'my-angular-project';
   public data: object[] = projectNewData;
-  public timelineView: object = {timelineViewMode:"Hour"}
+  public timelineView: object = {timelineViewMode:"Month"}
   public columnSettings: object[] = [
     {field: "TaskID", headerText: "Task ID"},
     {field: "TaskName", headerText: "Task Name"},
