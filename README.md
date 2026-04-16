@@ -1,15 +1,57 @@
 # Getting Started with the Angular Gantt Chart Component
 
-A quick-start Angular project that shows how to add and work with the Angular Gantt Chart component of Syncfusion using the Angular CLI toolchain. This project contains simple code customization, as well as some important features like setting timeline views, column customization and task dependencies.
+A simple Angular demo showing Syncfusion Angular Gantt setup and rendering with task dependencies and nested subtasks.
 
-Documentation: https://ej2.syncfusion.com/angular/documentation/gantt/getting-started/
+## Prerequisites
 
-Online examples: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/gantt/default
+- Node.js installed
+- Angular CLI installed globally (`npm install -g @angular/cli`)
 
-## Project prerequisites
+## Installation
 
-Make sure that you have the latest versions of NodeJS and Visual Studio Code in your machine before starting to work on this project.
+From the project root, install dependencies:
 
-### How to run this application?
+```bash
+npm install
+```
 
-To run this application, you need to clone the `getting-started-with-the-angular-gantt-chart-component` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the `npm install` command and run your project using the `ng serve` command.
+## Run the application
+
+Start the development server:
+
+```bash
+ng serve
+```
+
+Open the app at:
+
+```text
+http://localhost:4200/
+```
+
+## Features
+
+- Syncfusion Gantt integration via `@syncfusion/ej2-angular-gantt`
+- Weekly timeline view
+- Custom columns and task mapping
+- Nested subtasks and predecessors
+- Sample data with progress and indicators
+
+## Configuration
+
+The sample uses:
+
+- `taskFields` mapped to `TaskID`, `TaskName`, `StartDate`, `EndDate`, `Duration`, `Progress`, `subtasks`, and `Predecessor`
+- Columns for Task ID, Task Name, Start Date, and Duration
+- `timelineViewMode: "Week"`
+
+## Notes
+
+- `app-routing.module.ts` is included, but no routes are configured.
+- Data includes nested subtasks, predecessor chains, and indicator entries.
+- The project uses Angular 19 and Syncfusion Gantt 20.x.
+
+## References
+
+- Documentation: https://ej2.syncfusion.com/angular/documentation/gantt/getting-started/
+- Demos: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/gantt/default
