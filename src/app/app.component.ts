@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 import { projectNewData } from '../data';
+import { GanttModule } from '@syncfusion/ej2-angular-gantt';
 @Component({
   selector: 'app-root',
+  imports: [GanttModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

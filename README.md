@@ -1,10 +1,14 @@
 # Getting Started with the Angular Gantt Chart Component
 
-A simple Angular demo showing Syncfusion Angular Gantt setup and rendering with task dependencies and nested subtasks.
+A simple Angular sample demonstrating how to configure and render the Syncfusion Angular Gantt Chart with task dependencies and nested subtasks.
+
+## Project Overview
+
+The sample focuses on setting up the Gantt chart within an Angular application and displaying project data that includes parent tasks and nested subtasks. It demonstrates commonly used configuration options such as timeline view mode, column definitions, progress tracking, and predecessor relationships for project planning scenarios.
 
 ## Prerequisites
 
-- Node.js installed
+- Node.js (LTS or later)
 - Angular CLI installed globally (`npm install -g @angular/cli`)
 
 ## Installation
@@ -37,21 +41,7 @@ http://localhost:4200/
 - Nested subtasks and predecessors
 - Sample data with progress and indicators
 
-## Configuration
-
-The sample uses:
-
-- `taskFields` mapped to `TaskID`, `TaskName`, `StartDate`, `EndDate`, `Duration`, `Progress`, `subtasks`, and `Predecessor`
-- Columns for Task ID, Task Name, Start Date, and Duration
-- `timelineViewMode: "Week"`
-
-## Notes
-
-- `app-routing.module.ts` is included, but no routes are configured.
-- Data includes nested subtasks, predecessor chains, and indicator entries.
-- The project uses Angular 19 and Syncfusion Gantt 20.x.
-
 ## References
 
 - Documentation: https://ej2.syncfusion.com/angular/documentation/gantt/getting-started/
-- Demos: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/gantt/default
+- Online Demos: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/gantt/default
