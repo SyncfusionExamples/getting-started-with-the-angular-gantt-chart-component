@@ -1,15 +1,47 @@
 # Getting Started with the Angular Gantt Chart Component
 
-A quick-start Angular project that shows how to add and work with the Angular Gantt Chart component of Syncfusion using the Angular CLI toolchain. This project contains simple code customization, as well as some important features like setting timeline views, column customization and task dependencies.
+A simple Angular sample demonstrating how to configure and render the Syncfusion Angular Gantt Chart with task dependencies and nested subtasks.
 
-Documentation: https://ej2.syncfusion.com/angular/documentation/gantt/getting-started/
+## Project Overview
 
-Online examples: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/gantt/default
+The sample focuses on setting up the Gantt chart within an Angular application and displaying project data that includes parent tasks and nested subtasks. It demonstrates commonly used configuration options such as timeline view mode, column definitions, progress tracking, and predecessor relationships for project planning scenarios.
 
-## Project prerequisites
+## Prerequisites
 
-Make sure that you have the latest versions of NodeJS and Visual Studio Code in your machine before starting to work on this project.
+- Node.js (LTS or later)
+- Angular CLI installed globally (`npm install -g @angular/cli`)
 
-### How to run this application?
+## Installation
 
-To run this application, you need to clone the `getting-started-with-the-angular-gantt-chart-component` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the `npm install` command and run your project using the `ng serve` command.
+From the project root, install dependencies:
+
+```bash
+npm install
+```
+
+## Run the application
+
+Start the development server:
+
+```bash
+ng serve
+```
+
+Open the app at:
+
+```text
+http://localhost:4200/
+```
+
+## Features
+
+- Syncfusion Gantt integration via `@syncfusion/ej2-angular-gantt`
+- Weekly timeline view
+- Custom columns and task mapping
+- Nested subtasks and predecessors
+- Sample data with progress and indicators
+
+## References
+
+- Documentation: https://ej2.syncfusion.com/angular/documentation/gantt/getting-started/
+- Online Demos: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/gantt/default
