@@ -1,6 +1,6 @@
 # Getting Started with the Angular Gantt Chart Component
 
-A simple Angular sample demonstrating how to configure and render the Syncfusion [Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=angular-gantt-chart-github-samples) with task dependencies and nested subtasks.
+A simple Angular sample demonstrating how to configure and render the [Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=angular-gantt-chart-github-samples) with task dependencies and nested subtasks.
 
 ## Project Overview
 
