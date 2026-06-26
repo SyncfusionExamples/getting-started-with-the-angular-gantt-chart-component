@@ -35,13 +35,16 @@ http://localhost:4200/
 
 ## Features
 
-- Syncfusion Gantt integration via `@syncfusion/ej2-angular-gantt`
+- Gantt integration via `@syncfusion/ej2-angular-gantt`
 - Weekly timeline view
 - Custom columns and task mapping
 - Nested subtasks and predecessors
 - Sample data with progress and indicators
 
-## References
+## Related Links
 
-- Documentation: https://ej2.syncfusion.com/angular/documentation/gantt/getting-started/
-- Online Demos: https://ej2.syncfusion.com/angular/demos/#/bootstrap5/gantt/default
+- [Explore Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart)
+- [Angular Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/angular/documentation/gantt/getting-started)
+- [Gantt Chart Feature Overview](https://ej2.syncfusion.com/angular/documentation/gantt/overview)
+- [Gantt API Documentation](https://ej2.syncfusion.com/angular/documentation/api/gantt/)
+- [Gantt Chart Live Demos and Examples](https://ej2.syncfusion.com/angular/demos/#/tailwind3/gantt/default)
