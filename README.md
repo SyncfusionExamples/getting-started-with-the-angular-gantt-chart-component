@@ -1,10 +1,10 @@
 # Getting Started with the Angular Gantt Chart Component
 
-A simple Angular sample demonstrating how to configure and render the [Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart) with task dependencies and nested subtasks.
+A simple Angular sample demonstrating how to configure and render the [Angular Gantt Chart](https://www.syncfusion.com/angular-components/angular-gantt-chart?utm_source=github&utm_medium=listing&utm_campaign=angular-gantt-chart-github-samples) with task dependencies and nested subtasks.
 
 ## Project Overview
 
-The sample focuses on setting up the Gantt chart within an Angular application and displaying project data that includes parent tasks and nested subtasks. It demonstrates commonly used configuration options such as timeline view mode, column definitions, progress tracking, and predecessor relationships for project planning scenarios.
+The sample focuses on setting up the Gantt chart within an Angular application and displaying project data that includes parent tasks and nested subtasks. It demonstrates commonly used configuration options such as [timeline view mode](https://ej2.syncfusion.com/angular/documentation/gantt/timeline/timeline#configure-timeline-view-modes?utm_source=github&utm_medium=listing&utm_campaign=angular-gantt-chart-github-samples), column definitions, progress tracking, and predecessor relationships for project planning scenarios.
 
 ## Prerequisites
 
